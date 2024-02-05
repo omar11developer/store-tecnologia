@@ -16,8 +16,8 @@ public class Cliente {
     @Column(name = "id_cliente", nullable = false)
     private Integer idCliente;
 
-    @Column(nullable = false, length = 60)
-    private String nomre;
+    @Column(name = "nombre", nullable = false, length = 60)
+    private String nombre;
 
     @Column(nullable = false, length = 50)
     private String email;
